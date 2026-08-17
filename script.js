@@ -54,7 +54,7 @@ function render(data) {
   document.getElementById("methodology-note").textContent = data.meta.note + " Results are presented as counts because the current sample is small.";
 }
 
-fetch("data/results.json")
+fetch("results.json")
   .then(response => {
     if (!response.ok) throw new Error("Could not load survey summary.");
     return response.json();
