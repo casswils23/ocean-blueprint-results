@@ -1,128 +1,234 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Early input on priorities, barriers, commitments, and measures of success for the Ocean Information & Services Solutions Blueprint." />
-  <title>Ocean Information & Services Solutions Blueprint | Early Results</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Early survey results for the Ocean Information & Services Solutions Blueprint."
+  >
+
+  <title>Ocean Information & Services Solutions Blueprint</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="script.js" defer></script>
 </head>
+
 <body>
-  <a class="skip-link" href="#main">Skip to results</a>
 
   <header class="hero">
-    <div class="wrap hero-inner">
-      <p class="kicker">Ocean Information & Services Solutions Blueprint</p>
-      <h1>What we’re hearing so far</h1>
-      <p class="hero-copy">Early input points to a common goal: connect sustained ocean observations to trusted data, prediction, services, and decisions.</p>
-      <div class="meta" aria-label="Survey summary">
-        <span id="respondent-count">6 unique respondents</span>
-        <span aria-hidden="true">•</span>
-        <span id="date-range">July 21–August 17, 2026</span>
+    <div class="hero-circle hero-circle-one"></div>
+    <div class="hero-circle hero-circle-two"></div>
+
+    <div class="wrap hero-content">
+
+      <p class="eyebrow hero-eyebrow">
+        Ocean Information & Services Solutions Blueprint
+      </p>
+
+      <h1>
+        What we're<br>
+        hearing so far
+      </h1>
+
+      <p class="hero-intro">
+        Early input points to a common goal: connect sustained ocean
+        observations to trusted data, prediction, services, and decisions.
+      </p>
+
+      <div class="hero-meta">
+        <span>Early input</span>
+        <span class="meta-dot">•</span>
+        <span>July 21–August 17, 2026</span>
       </div>
-      <div class="hero-stats" id="hero-stats" aria-label="Headline findings"></div>
+
+      <p class="survey-note">
+        Percentages reflect unique respondents selecting each option.
+        Because most questions allowed multiple selections, percentages
+        do not add to 100%.
+      </p>
+
     </div>
   </header>
 
-  <main id="main">
-    <section class="section section-light" aria-labelledby="priorities-heading">
-      <div class="wrap two-column">
-        <div class="section-intro">
-          <p class="section-number">01</p>
-          <p class="eyebrow">Priorities</p>
-          <h2 id="priorities-heading">Start with a strong observing foundation</h2>
-          <p>Respondents most often prioritized sustained observations, alongside the data systems, capacity, applications, and forecasting needed to turn observations into useful information.</p>
-        </div>
-        <div class="panel">
-          <h3>What should the Blueprint prioritize?</h3>
-          <div class="bar-chart" id="focus-chart"></div>
-          <p class="chart-note">Respondents could select up to three options.</p>
-        </div>
-      </div>
-    </section>
 
-    <section class="section" aria-labelledby="rio-heading">
+  <main>
+
+    <!-- QUESTIONS 1 + 2 -->
+
+    <section class="results-section section-blue">
+
       <div class="wrap">
-        <p class="section-number">02</p>
-        <p class="eyebrow">Rio 2027</p>
-        <h2 id="rio-heading">Move from alignment to implementation</h2>
-        <p class="lead">The strongest desired outcome is to identify solutions that can scale, supported by shared priorities and clear pathways for action.</p>
-        <div class="card-grid" id="rio-cards"></div>
+
+        <div class="paired-grid">
+
+          <article class="question-block">
+
+            <div class="question-heading">
+              <p class="question-number">01</p>
+              <p class="eyebrow">PRIORITIES</p>
+
+              <h2>
+                What should the Blueprint prioritize?
+              </h2>
+            </div>
+
+            <div class="chart-card">
+
+              <div id="q1-chart"></div>
+
+              <p class="chart-note">
+                Respondents could select up to three options.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="question-block">
+
+            <div class="question-heading">
+              <p class="question-number">02</p>
+              <p class="eyebrow">RIO 2027</p>
+
+              <h2>
+                What should the Blueprint deliver for Rio 2027?
+              </h2>
+            </div>
+
+            <div class="chart-card">
+
+              <div id="q2-chart"></div>
+
+              <p class="chart-note">
+                Respondents could select up to three options.
+              </p>
+
+            </div>
+
+          </article>
+
+        </div>
+
       </div>
+
     </section>
 
-    <section class="section section-dark" aria-labelledby="barriers-heading">
-      <div class="wrap two-column">
-        <div class="section-intro">
-          <p class="section-number">03</p>
-          <p class="eyebrow">Barriers</p>
-          <h2 id="barriers-heading">The challenge is not just technology</h2>
-          <p>Funding leads the list, but respondents also point to gaps in observing coverage, interoperability, coordination, and connections to decision-making.</p>
-        </div>
-        <div class="panel panel-dark">
-          <h3>Most-cited barriers</h3>
-          <div class="bar-chart" id="barriers-chart"></div>
-          <p class="chart-note">Respondents could select up to three options.</p>
-        </div>
-      </div>
-    </section>
 
-    <section class="section section-light" aria-labelledby="commitments-heading">
+    <!-- QUESTIONS 3 + 4 -->
+
+    <section class="results-section section-white">
+
       <div class="wrap">
-        <p class="section-number">04</p>
-        <p class="eyebrow">Partner commitments</p>
-        <h2 id="commitments-heading">There is already a foundation for action</h2>
-        <p class="lead">Respondents are prepared to contribute networks, long-term community support, infrastructure access, and capacity development.</p>
-        <div class="stat-grid" id="commitments-grid"></div>
-      </div>
-    </section>
 
-    <section class="section" aria-labelledby="success-heading">
-      <div class="wrap two-column">
-        <div class="section-intro">
-          <p class="section-number">05</p>
-          <p class="eyebrow">Measuring progress</p>
-          <h2 id="success-heading">Measure whether ocean information gets used</h2>
-          <p>Success is not only about producing more data. Respondents emphasize use of forecasts and decision-support services, expanded observing coverage, and evidence of uptake by decision-makers.</p>
+        <div class="paired-grid">
+
+          <article class="question-block">
+
+            <div class="question-heading">
+              <p class="question-number">03</p>
+              <p class="eyebrow">KEY BARRIERS</p>
+
+              <h2>
+                What is limiting progress?
+              </h2>
+            </div>
+
+            <div class="chart-card">
+
+              <div id="q3-chart"></div>
+
+              <p class="chart-note">
+                Respondents could select up to three options.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="question-block">
+
+            <div class="question-heading">
+              <p class="question-number">04</p>
+              <p class="eyebrow">PARTNER COMMITMENTS</p>
+
+              <h2>
+                What could partners contribute?
+              </h2>
+            </div>
+
+            <div class="chart-card">
+
+              <div id="q4-chart"></div>
+
+              <p class="chart-note">
+                Respondents could select all that apply.
+              </p>
+
+            </div>
+
+          </article>
+
         </div>
-        <div class="panel">
-          <h3>What should be measured through 2030?</h3>
-          <div class="bar-chart" id="success-chart"></div>
-          <p class="chart-note">Respondents could select up to three options.</p>
-        </div>
+
       </div>
+
     </section>
 
-  
 
-    <section class="takeaway" aria-labelledby="takeaway-heading">
-      <div class="wrap narrow">
-        <p class="eyebrow">The emerging message</p>
-        <h2 id="takeaway-heading">Success is not more ocean information. It is ocean information being used.</h2>
-        <p id="takeaway-copy"></p>
+    <!-- QUESTION 5 -->
+
+    <section class="results-section section-blue">
+
+      <div class="wrap">
+
+        <article class="question-block question-full">
+
+          <div class="question-heading">
+
+            <p class="question-number">05</p>
+            <p class="eyebrow">MEASURING PROGRESS</p>
+
+            <h2>
+              What should be measured through 2030?
+            </h2>
+
+          </div>
+
+          <div class="chart-card chart-card-wide">
+
+            <div id="q5-chart"></div>
+
+            <p class="chart-note">
+              Respondents could select up to three options.
+            </p>
+
+          </div>
+
+        </article>
+
       </div>
+
     </section>
 
-    <section class="section methodology" aria-labelledby="methodology-heading">
-      <div class="wrap narrow">
-        <p class="eyebrow">About these results</p>
-        <h2 id="methodology-heading">A snapshot, not a final assessment</h2>
-        <p id="methodology-note">These findings summarize six unique respondents. Where the same person submitted more than once, only the most recent submission is counted. Results are presented as counts because the current sample is small.</p>
-      </div>
-    </section>
   </main>
 
+
   <footer>
+
     <div class="wrap footer-inner">
-      <span>Ocean Information & Services Solutions Blueprint</span>
-      <span>Early input summary</span>
+      Ocean Information & Services Solutions Blueprint
     </div>
+
   </footer>
 
-  <noscript>
-    <div class="noscript">This page uses a small amount of JavaScript to load the survey summary.</div>
-  </noscript>
-
-  <script src="script.js"></script>
 </body>
 </html>
