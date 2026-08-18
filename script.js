@@ -4,18 +4,21 @@ const fallback = {
   workshop: { body: "" }, takeaway: { body: "" }
 };
 
-function renderBars(containerId, items, maxCount = 6) {
+function renderBars(containerId, items, total) {
   const container = document.getElementById(containerId);
+
   container.innerHTML = items.map(item => {
-    const width = Math.max(0, Math.min(100, (item.count / maxCount) * 100));
+    const percent = Math.round((item.count / total) * 100);
+
     return `
       <div class="bar-row">
         <div class="bar-label">
           <span>${item.label}</span>
-          <span>${item.count} of ${maxCount}</span>
+          <span><strong>${percent}%</strong></span>
         </div>
+
         <div class="bar-track" aria-hidden="true">
-          <div class="bar-fill" style="width:${width}%"></div>
+          <div class="bar-fill" style="width:${percent}%"></div>
         </div>
       </div>`;
   }).join("");
