@@ -7,19 +7,19 @@
     "note": "Results are summarized from six unique respondents. Where a person submitted more than once, the most recent submission is used."
   },
   "heroStats": [
-    {
-      "value": "5 of 6",
-      "label": "prioritize sustained ocean observations"
-    },
-    {
-      "value": "4 of 6",
-      "label": "identify sustained funding as a major barrier"
-    },
-    {
-      "value": "4 of 6",
-      "label": "say success should include greater use of prediction and decision-support services"
-    }
-  ],
+  {
+    "value": "83%",
+    "label": "prioritize sustained ocean observations"
+  },
+  {
+    "value": "67%",
+    "label": "identify sustained funding as a major barrier"
+  },
+  {
+    "value": "67%",
+    "label": "say success should include greater use of prediction and decision-support services"
+  }
+],
   "focusAreas": [
     { "label": "Sustained ocean observations", "count": 5 },
     { "label": "Data access & interoperability", "count": 4 },
@@ -29,21 +29,22 @@
     { "label": "Emerging technologies", "count": 1 }
   ],
   "rioOutcomes": [
-    {
-      "eyebrow": "Scale",
-      "title": "Build on solutions that already work",
-      "detail": "4 of 6 respondents selected existing and emerging solutions that can be scaled."
-    },
-    {
-      "eyebrow": "Align",
-      "title": "Create a shared view of priority needs",
-      "detail": "3 of 6 respondents want the Blueprint to establish a shared assessment of priorities."
-    },
-    {
-      "eyebrow": "Act",
-      "title": "Define implementation pathways",
-      "detail": "3 of 6 respondents selected clear implementation pathways for 2027–2030."
-    }
+  {
+    "eyebrow": "Scale",
+    "title": "Build on solutions that already work",
+    "detail": "67% selected existing and emerging solutions that can be scaled."
+  },
+  {
+    "eyebrow": "Align",
+    "title": "Create a shared view of priority needs",
+    "detail": "50% want the Blueprint to establish a shared assessment of priorities."
+  },
+  {
+    "eyebrow": "Act",
+    "title": "Define implementation pathways",
+    "detail": "50% selected clear implementation pathways for 2027–2030."
+  }
+],
   ],
   "barriers": [
     { "label": "Insufficient sustained funding", "count": 4 },
@@ -53,11 +54,23 @@
     { "label": "Weak connection to decision-making", "count": 2 }
   ],
   "commitments": [
-    { "value": "4 of 6", "label": "Connect local, regional, national, or sectoral communities" },
-    { "value": "4 of 6", "label": "Help sustain Decade activities or Communities of Practice beyond 2030" },
-    { "value": "3 of 6", "label": "Provide access to observing, data, prediction, service, or digital infrastructure" },
-    { "value": "3 of 6", "label": "Support capacity development, training, mentoring, or technical assistance" }
-  ],
+  {
+    "value": "67%",
+    "label": "Connect local, regional, national, or sectoral communities"
+  },
+  {
+    "value": "67%",
+    "label": "Help sustain Decade activities or Communities of Practice beyond 2030"
+  },
+  {
+    "value": "50%",
+    "label": "Provide access to observing, data, prediction, service, or digital infrastructure"
+  },
+  {
+    "value": "50%",
+    "label": "Support capacity development, training, mentoring, or technical assistance"
+  }
+],
   "successMetrics": [
     { "label": "Greater use of prediction, forecasting, or decision-support services", "count": 4 },
     { "label": "Expanded observing coverage in priority regions", "count": 3 },
