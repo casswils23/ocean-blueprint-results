@@ -26,7 +26,7 @@ function renderBars(containerId, items, total) {
 
 function render(data) {
   const n = data.meta.respondents;
-  document.getElementById("respondent-count").textContent = `${n} unique respondents`;
+document.getElementById("respondent-count").textContent = "Early input";
   document.getElementById("date-range").textContent = data.meta.dateRange;
 
   document.getElementById("hero-stats").innerHTML = data.heroStats.map(stat => `
